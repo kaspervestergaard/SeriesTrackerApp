@@ -1,0 +1,9 @@
+{
+	"name": "seriestrackerdf",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "02bd220f-7ba7-4181-82c2-1c70737ebc0a",
+		"tenantId": "ba8f9ce7-c738-456b-8c52-9ac8f3e8cca0"
+	}
+}

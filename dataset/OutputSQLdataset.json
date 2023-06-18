@@ -1,0 +1,40 @@
+{
+	"name": "OutputSQLdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "movies",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Title",
+				"type": "varchar"
+			},
+			{
+				"name": "genresgenregenre",
+				"type": "varchar"
+			},
+			{
+				"name": "YEAR",
+				"type": "varchar"
+			},
+			{
+				"name": "Rating",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "allseries"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
